@@ -97,12 +97,12 @@ public class MainActivity extends AppCompatActivity
 
         } else if (id == R.id.share_auto) {
 
-            GalleryFragment galleryFragment = GalleryFragment.newInstance("some1", "some2");
+            ShareAutoFragment shareFragment = new ShareAutoFragment();
             FragmentManager manager = getSupportFragmentManager();
             manager.beginTransaction()
                     .replace(R.id.relativelayout_for_fragment,
-                    galleryFragment,
-                    galleryFragment.getTag()
+                    shareFragment,
+                    shareFragment.getTag()
             ).commit();
         }
         else if (id == R.id.auto_stand) {
