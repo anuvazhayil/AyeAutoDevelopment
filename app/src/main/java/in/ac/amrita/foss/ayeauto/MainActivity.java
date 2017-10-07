@@ -1,4 +1,4 @@
-package com.kosalgeek.android.navdrawerexample1;
+package in.ac.amrita.foss.ayeauto;
 
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;

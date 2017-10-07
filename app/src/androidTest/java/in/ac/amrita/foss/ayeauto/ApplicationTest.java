@@ -1,4 +1,4 @@
-package com.kosalgeek.android.navdrawerexample1;
+package in.ac.amrita.foss.ayeauto;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
