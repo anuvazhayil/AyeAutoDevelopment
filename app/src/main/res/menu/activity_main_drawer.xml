@@ -10,15 +10,10 @@
             android:id="@+id/share_auto"
             android:icon="@drawable/ic_menu_gallery"
             android:title="Share Auto" />
+        <item
+            android:id="@+id/auto_stand"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Nearby Auto Stand" />
     </group>
-
-    <item android:title="Communicate">
-        <menu>
-            <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
-        </menu>
-    </item>
 
 </menu>
