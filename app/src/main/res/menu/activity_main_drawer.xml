@@ -4,16 +4,28 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/book_auto"
-            android:icon="@drawable/ic_menu_camera"
+            android:icon="@android:drawable/ic_menu_search"
             android:title="Book Auto" />
         <item
             android:id="@+id/share_auto"
-            android:icon="@drawable/ic_menu_gallery"
+            android:icon="@android:drawable/ic_menu_myplaces"
             android:title="Share Auto" />
         <item
             android:id="@+id/auto_stand"
-            android:icon="@drawable/ic_menu_share"
+            android:icon="@android:drawable/ic_menu_mylocation"
             android:title="Nearby Auto Stand" />
     </group>
 
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@android:drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@android:drawable/ic_menu_info_details"
+                android:title="About" />
+        </menu>
+    </item>
 </menu>
