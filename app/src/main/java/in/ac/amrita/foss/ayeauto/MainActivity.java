@@ -96,17 +96,16 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
-
-            /*CameraFragment cameraFragment = new CameraFragment();
+        if (id == R.id.book_auto) {
+            BookAutoFragment bookAutoFragment = new BookAutoFragment();
             FragmentManager manager = getSupportFragmentManager();
             manager.beginTransaction()
                     .replace(R.id.relativelayout_for_fragment,
-                    cameraFragment,
-                    cameraFragment.getTag()
-            ).commit();*/
+                    bookAutoFragment,
+                    bookAutoFragment.getTag()
+            ).commit();
 
-        } else if (id == R.id.nav_gallery) {
+        } else if (id == R.id.share_auto) {
 
             GalleryFragment galleryFragment = GalleryFragment.newInstance("some1", "some2");
             FragmentManager manager = getSupportFragmentManager();
