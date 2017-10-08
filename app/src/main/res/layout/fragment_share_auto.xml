@@ -14,7 +14,7 @@
         android:layout_marginTop="36dp"
         android:text="Share"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText8"
+        app:layout_constraintTop_toBottomOf="@+id/luggages"
         android:layout_marginLeft="50dp"
         app:layout_constraintLeft_toLeftOf="parent" />
 
@@ -22,26 +22,28 @@
         android:id="@+id/dateShare"
         android:layout_width="110dp"
         android:layout_height="40dp"
-        android:ems="10"
-        android:inputType="date"
-        android:layout_marginTop="27dp"
-        app:layout_constraintTop_toBottomOf="@+id/toShare"
         android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="27dp"
+        android:ems="10"
+        android:hint="Date"
+        android:inputType="date"
+        app:layout_constraintHorizontal_bias="0.395"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toLeftOf="@+id/timeShare"
-        android:layout_marginRight="10dp"
-        app:layout_constraintHorizontal_bias="0.395" />
+        app:layout_constraintTop_toBottomOf="@+id/toShare" />
 
     <EditText
         android:id="@+id/timeShare"
         android:layout_width="110dp"
         android:layout_height="40dp"
-        android:ems="10"
-        android:inputType="time"
-        android:layout_marginTop="27dp"
-        app:layout_constraintTop_toBottomOf="@+id/toShare"
         android:layout_marginRight="10dp"
-        app:layout_constraintRight_toRightOf="parent" />
+        android:layout_marginTop="27dp"
+        android:ems="10"
+        android:hint="Time"
+        android:inputType="time"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toShare" />
 
     <EditText
         android:id="@+id/fromShare"
@@ -72,7 +74,7 @@
         app:layout_constraintLeft_toLeftOf="parent" />
 
     <EditText
-        android:id="@+id/editText7"
+        android:id="@+id/seatLefts"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -87,18 +89,18 @@
         app:layout_constraintHorizontal_bias="0.504" />
 
     <EditText
-        android:id="@+id/editText8"
+        android:id="@+id/luggages"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="Luggage space left"
-        android:inputType="number"
-        android:layout_marginTop="30dp"
-        app:layout_constraintTop_toBottomOf="@+id/editText7"
-        android:layout_marginRight="30dp"
-        app:layout_constraintRight_toRightOf="parent"
         android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="Number of bags"
+        android:inputType="number"
+        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintHorizontal_bias="0.504" />
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/seatLefts" />
 
 </android.support.constraint.ConstraintLayout>
