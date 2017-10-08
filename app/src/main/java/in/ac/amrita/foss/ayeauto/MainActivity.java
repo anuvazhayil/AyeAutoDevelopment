@@ -1,5 +1,6 @@
 package in.ac.amrita.foss.ayeauto;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
@@ -107,14 +108,7 @@ public class MainActivity extends AppCompatActivity
             ).commit();
         }
         else if (id == R.id.auto_stand) {
-
-            BlankFragment blankFragment = BlankFragment.newInstance(5);
-            FragmentManager manager = getSupportFragmentManager();
-            manager.beginTransaction()
-                    .replace(R.id.relativelayout_for_fragment,
-                    blankFragment,
-                    blankFragment.getTag()
-            ).commit();
+            startActivity(new Intent(MainActivity.this, MapsActivity.class));
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
