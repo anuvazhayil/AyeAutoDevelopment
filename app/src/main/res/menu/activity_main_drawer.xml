@@ -5,15 +5,15 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/book_auto"
-            android:icon="@android:drawable/ic_menu_search"
+            android:icon="@android:drawable/ic_menu_more"
             android:title="Book Auto" />
         <item
             android:id="@+id/share_auto"
-            android:icon="@android:drawable/ic_menu_myplaces"
+            android:icon="@android:drawable/ic_menu_delete"
             android:title="Share Auto" />
         <item
             android:id="@+id/auto_stand"
-            android:icon="@android:drawable/ic_menu_mylocation"
+            android:icon="@android:drawable/ic_menu_crop"
             android:title="Nearby Auto Stand" />
     </group>
 
@@ -21,11 +21,11 @@
         <menu>
             <item
                 android:id="@+id/nav_share"
-                android:icon="@android:drawable/ic_menu_share"
+                android:icon="@android:drawable/ic_menu_set_as"
                 android:title="Share" />
             <item
                 android:id="@+id/nav_about"
-                android:icon="@android:drawable/ic_menu_info_details"
+                android:icon="@android:drawable/editbox_background"
                 android:title="About" />
         </menu>
     </item>
@@ -33,7 +33,7 @@
         <menu>
 
             <item
-                android:icon="?android:attr/fingerprintAuthDrawable"
+                android:icon="?android:attr/alertDialogIcon"
                 android:title="Anu V &amp; Chirath R" />
         </menu>>
     </item>

@@ -39,14 +39,6 @@ public class MainActivity extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
-
-        CameraFragment cameraFragment = new CameraFragment();
-        FragmentManager manager = getSupportFragmentManager();
-        manager.beginTransaction().replace(
-                R.id.relativelayout_for_fragment,
-                cameraFragment,
-                cameraFragment.getTag()
-        ).commit();
     }
 
     @Override
