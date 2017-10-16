@@ -33,7 +33,7 @@
         <menu>
 
             <item
-                android:icon="?android:attr/alertDialogIcon"
+                android:icon="?android:attr/fingerprintAuthDrawable"
                 android:title="Anu V &amp; Chirath R" />
         </menu>>
     </item>
