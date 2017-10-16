@@ -13,7 +13,7 @@
             android:title="Share Auto" />
         <item
             android:id="@+id/auto_stand"
-            android:icon="@android:drawable/ic_menu_crop"
+            android:icon="@android:drawable/ic_menu_mylocation"
             android:title="Nearby Auto Stand" />
     </group>
 
