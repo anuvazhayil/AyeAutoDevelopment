@@ -9,7 +9,7 @@
             android:title="Book Auto" />
         <item
             android:id="@+id/share_auto"
-            android:icon="@android:drawable/ic_menu_delete"
+            android:icon="@android:drawable/ic_menu_myplaces"
             android:title="Share Auto" />
         <item
             android:id="@+id/auto_stand"
